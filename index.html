@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+<!-- CSS EXTERNAL -->
+<link rel="stylesheet" href="/CSS/style.css">
+
+ 
+</head>
+<body>
+    <!-- Tampilan Header-->
+    <header >
+        <div class="container">
+            <div class="logo">
+                <img src="/Asset/logo.png" alt="logo perusahaan">
+            </div>
+            <nav class="navigasi">      
+                    <a href="#home">Home</a>
+                    <a href="#profile">Our Profile</a>
+                    <a href="#portofolio">Portfolio</a>
+                    <a href="#message">Message Us</a>
+            </nav>
+        </div>
+    </header>
+    
+
+    <!-- Main Content -->
+    <Main>
+        <!-- Main Home -->
+        <section id="home" class="home">
+            <div class="home-text">
+                <h1 id="welcome-text">Welcome To Website</h1>
+                <p>Memberikan solusi IT yang handal dan dukungan teknis yang luar biasa untuk menjaga bisnis Anda tetap berjalan lancar. Spesialisasi dalam infrastruktur jaringan, cybersecurity, dan teknologi cloud.</p>
+            </div>
+            <div class="home-image">
+                <img src="/Asset/home.jpg" width="100px" height="100px" alt="Home Page">
+            </div>    
+        </section>
+    
+        <!-- Main Profile  -->
+        <section id="profile" class="profile">
+            <div class="profile-about">
+                <h2>Our Profile</h2>
+                <p>
+                Kami adalah perusahaan yang bergerak di bidang Teknologi Informasi, dengan fokus pada layanan Pembuatan Website, Pengembangan Sistem, dan IT Support untuk bisnis, instansi, maupun perorangan.
+                <br>
+                <br>
+                Di era digital yang terus berkembang, kami hadir untuk membantu transformasi digital yang efektif, efisien, dan berkelanjutan. Kami percaya bahwa teknologi bukan hanya tentang sistem, tetapi tentang solusi yang mampu meningkatkan produktivitas dan pertumbuhan bisnis.
+                </p>
+            </div>
+            <div class="profile-visi-misi">
+                <div class="profile-visi">
+                    <h2>Visi</h2>
+                    <p>
+                        Menjadi mitra teknologi terpercaya yang memberikan solusi digital inovatif, aman, dan berkualitas tinggi
+                    </p>
+                </div>
+                <div class="profile-misi">
+                    <ul>
+                        <h2>Misi</h2>
+                        <li>Memberikan layanan pembuatan website yang profesional dan responsif</li>
+                        <li>Menyediakan dukungan IT yang cepat, tepat, dan solutif</li>
+                        <li>Mengutamakan keamanan sistem dan stabilitas infrastruktur</li>
+                        <li>Membangun hubungan jangka panjang dengan klien melalui pelayanan terbaik</li>
+                    </ul>
+                </div>
+            </div>
+                <div class="profile-komitmen">
+                    <h2>Komitmen Kami</h2>
+                    <p>
+                        Kami berkomitmen untuk memberikan solusi teknologi yang tidak hanya berjalan dengan baik hari ini, tetapi juga siap berkembang untuk kebutuhan masa depan Anda.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Main Portofolio -->
+        <section id="portofolio" class="portofolio">
+
+            <div class="portofolio-text">
+                <h1>Portofolio</h1>
+                <p>
+                    Kami telah membantu berbagai bisnis dan instansi dalam membangun sistem digital 
+                    yang profesional, aman, dan efisien. Berikut beberapa contoh proyek yang telah kami kerjakan:
+                </p>
+            </div>
+
+            <!-- WRAPPER CARD -->
+            <div class="portofolio-container">
+
+                <div class="portofolio-proyek">
+                    <img src="/Asset/jaringan.png" alt="jaringa internet">
+                    <h3>Network Infrastructure Setup</h3>
+                    <p>
+                        Implementasi jaringan LAN untuk 50 client dengan konfigurasi router dan manajemen bandwidth.
+                    </p>
+                </div>
+
+                <div class="portofolio-proyek">
+                    <img src="/Asset/cctv.png" alt="">
+                    <h3>CCTV Installation & Configuration</h3>
+                    <p>
+                        Instalasi dan konfigurasi sistem CCTV 16 channel untuk monitoring keamanan kantor.
+                    </p>
+                </div>
+
+                <div class="portofolio-proyek">
+                    <img src="/Asset/coding.jpg" alt="">
+                    <h3>Web Development</h3>
+                    <p>
+                        Pengembangan website company profile responsif untuk meningkatkan
+                        branding dan visibilitas digital.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Main Message Us -->
+       <section id="message" class="message">
+
+        <div class="message-container">
+
+        <div class="message-text">
+            <h2>Message Us</h2>
+        </div>
+
+             <div class="message-form">
+                <form id="contact-form">
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">No Telepon</label>
+                    <input type="tel" id="phone" name="phone">  
+
+                    <label>Jenis Kelamin</label>
+
+                    <input type="radio" id="male" name="gender" value="Laki-laki" required>
+                    <label for="male">Laki-laki</label>
+
+                    <input type="radio" id="female" name="gender" value="Perempuan">
+                    <label for="female">Perempuan</label>
+
+                    <label for="message">Pesan</label>
+                    <textarea id="user-message" message" rows="4" required></textarea>
+
+                    <button type="submit">Kirim</button>
+                </form>
+            </div>
+        </div>
+            <div id="form-result"></div>
+        </section>
+        
+    </Main>
+    <footer class="footer">
+        <p>Create By Zacheen</p>
+    </footer>
+
+    <!-- JavaScript External -->
+    <script src="/JS/script.js"></script>
+</body>
+</html>
